@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-image: linear-gradient(to right, hsl(39, 100%, 50%), hsl(197, 71%, 73%));
+}
+
+
+.header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-justify: auto;
+    color: whitesmoke;
+}
+
+#header-h2 {
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+h5 {
+    /* color: black; */
+    color: snow;
+}
+
+.container{ text-align: center;
+    font-size: 10px;
+    background-image: linear-gradient(to bottom,rgb(166, 0, 255) ,rgb(0, 255, 255));
+    width: 11cm;
+    height: 13.1cm;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+}
+
+button{ 
+    border: none;
+    border-radius: 10px;
+    width: 65px;
+    height: 50px;
+    font-size: 35px;
+    margin: 5px;
+    background-color: rgb(238, 218, 93);
+}
+
+.calulator{
+    text-align: center;
+}
+
+table{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+input{
+    width: 300px;
+    padding:10px;
+    border-radius: 10px;
+    height: 80px;
+    margin: 5px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+h1{   
+    font-family: Arial, Helvetica, sans-serif black;
+    text-align: center;
+    text-decoration: underline lightblue;
+    height: 1.5cm; 
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #ffffe0;
+}
+
+.footer-heading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: rgb(193, 15, 237);
+}
+
+.footer-img{
+ 
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-logo{
+    width:50px;
+}
+
+/* media query */
+
+@media screen and (max-width:450px) {
+    body{
+        background-image: none;
+        background-image: linear-gradient(to right ,rgb(255, 0, 0),rgb(241, 79, 227),rgb(247, 247, 31));
+    }
+    
+    h1{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+    .container{
+        width: 6cm;
+        height: 8cm;
+       
+    }
+
+    input{
+        width: 150px;
+        padding:10px;
+        border-radius: 10px;
+        height: 1cm;
+        margin: 5px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    button{ 
+        border-radius: 10px;
+        width: 30px;
+        height: 25px;
+        font-size: 20px;
+        background-color: rgb(232, 216, 48);
+    }
+            
+    h2{
+        margin-top: 50px;
+        font-size: 20px;
+    
+    }
+
+    table{
+        margin-left: 27px;
+        margin-top: 20px;
+    }
+
+    .social-logo{
+        width:30px;
+    
+    }  
+                
+}
